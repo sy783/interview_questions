@@ -1,0 +1,5 @@
+Another method is to build it using linked list. 
+
+An additional class called "Node" with two variables "item" and "next" is created to create a linked list node.
+
+It will be used to initialize the head/tail/top of the queue/stack. It will also be used to add a new node into the linked list to replicate the process of enqueue. 
