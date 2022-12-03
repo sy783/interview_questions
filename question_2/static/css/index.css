@@ -1,0 +1,52 @@
+div {
+  background-color: #3D5656;
+  width: 200px;
+  border: 2px solid black;
+  padding: 20px;
+  margin: auto;
+  text-align: center;
+  color: #CFFDE1;
+}
+
+#number{
+  color: whitesmoke;
+}
+
+body {
+  
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  padding: 50px;
+  margin: 20px;
+  background-color: whitesmoke;
+
+}
+
+table, td, th {  
+  border: 1px solid black;
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #68B984;
+}
+
+th, td {
+  padding: 15px;
+}
+
+.button {
+  background-color: #CFFDE1;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+}

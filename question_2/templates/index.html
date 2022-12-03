@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Customer View</title>
+        <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+    </head>
+    <body>
+        <h1>Customer View</h1>
+
+        <div>
+            <p id="serving"></p>
+            <p id="lastNum"></p>
+            <button type="button" onclick="generateTicket()" class="button">Take a Number</button>
+        </div>
+
+        <p id="number"></p>
+
+        <br>
+        <br>
+
+        <table>
+            <tr>
+              <th>Counter 1</th>
+              <th>Counter 2</th>
+              <th>Counter 3</th>
+              <th>Counter 4</th>
+            </tr>
+            <tr>
+                <td id="myTd1"></td>
+                <td id="myTd2"></td>
+                <td id="myTd3"></td>
+                <td id="myTd4"></td>
+            </tr>
+        </table>
+
+    </body>
+</html>
+
